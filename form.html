@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Hello Wigan Coding Meet Up!</title>
+</head>
+
+
+<body>
+  <h1 class="header">HTML5 Forms</h1>
+  <form action="submit">
+    <h2>Tell us a little more about yourself</h2>
+    <div class="form-div">
+      <label class="input-label">First Name:
+        <input type="text" id="firstName" placeholder="Enter you First Name" required>
+      </label>
+    </div>
+    <div class="form-div">
+      <label class="input-label">Last Name:
+        <input type="text" id="lastName" placeholder="Enter you Last Name" required>
+      </label>
+    </div>
+    <div class="form-div">
+      <label class="input-label-email">Email:
+        <input type="email" id="email" placeholder="Enter you Email" required>
+      </label>
+    </div>
+
+    <div class="radio-div">
+      <h3>What is your Gender.</h3>
+      <label class="radio-label" for="male">Male:
+        <input type="radio" id="male" required>
+      </label>
+    </div>
+    <div class="radio-div">
+      <label class="radio-label-female">Female:
+        <input type="radio" id="female" required>
+      </label>
+    </div>
+    <div class="radio-div">
+      <label class="radio-label">Other:
+        <input type="radio" id="female" required>
+      </label>
+    </div>
+    <div class="radio-div">
+      <label class="radio-label-prefer">Prefer Not To Say:
+        <input type="radio" id="female" required>
+      </label>
+    </div>
+
+    <div class="checkbox-div">
+      <h3>What best describes your current role?</h3>
+      <label class="checkbox-label-employed">Employed
+        <input type="checkbox" class="checkbox-input" name="employed" id="employed" required>
+      </label>
+    </div>
+    <div class="checkbox-div">
+      <label class="checkbox-label-unemployed">Un-Employed
+        <input type="checkbox" class="checkbox-input" name="unemployed" id="unemployed" required>
+      </label>
+    </div>
+    <div class="checkbox-div">
+      <label class="checkbox-label-student">Student
+        <input type="checkbox" class="checkbox-input" name="student" id="student" required>
+      </label>
+    </div>
+
+
+
+    <button type="submit" class="submit-button">Submit!</button>
+  </form>
+</body>
+
+</html>
