@@ -15,17 +15,17 @@
   <form action="submit">
     <h2>Tell us a little more about yourself</h2>
     <div class="form-div">
-      <label class="input-label">First Name:
+      <label class="input-label" for="firstName">First Name:
         <input type="text" id="firstName" placeholder="Enter you First Name" required>
       </label>
     </div>
     <div class="form-div">
-      <label class="input-label">Last Name:
+      <label class="input-label" for="lastName">Last Name:
         <input type="text" id="lastName" placeholder="Enter you Last Name" required>
       </label>
     </div>
     <div class="form-div">
-      <label class="input-label-email">Email:
+      <label class="input-label-email" for="email">Email:
         <input type="email" id="email" placeholder="Enter you Email" required>
       </label>
     </div>
@@ -33,39 +33,39 @@
     <div class="radio-div">
       <h3>What is your Gender.</h3>
       <label class="radio-label" for="male">Male:
-        <input type="radio" id="male" required>
+        <input type="radio" id="male" name="gender" required>
       </label>
     </div>
     <div class="radio-div">
       <label class="radio-label-female">Female:
-        <input type="radio" id="female" required>
+        <input type="radio" id="female" name="gender" required>
       </label>
     </div>
     <div class="radio-div">
       <label class="radio-label">Other:
-        <input type="radio" id="female" required>
+        <input type="radio" id="other" name="gender" required>
       </label>
     </div>
     <div class="radio-div">
       <label class="radio-label-prefer">Prefer Not To Say:
-        <input type="radio" id="female" required>
+        <input type="radio" id="prefer not to say" name="gender" required>
       </label>
     </div>
 
     <div class="checkbox-div">
       <h3>What best describes your current role?</h3>
       <label class="checkbox-label-employed">Employed
-        <input type="checkbox" class="checkbox-input" name="employed" id="employed" checked="false" required>
+        <input type="checkbox" class="checkbox-input" name="current-role" id="employed" checked="false" required>
       </label>
     </div>
     <div class="checkbox-div">
       <label class="checkbox-label-unemployed">Un-Employed
-        <input type="checkbox" class="checkbox-input" name="unemployed" id="unemployed" required>
+        <input type="checkbox" class="checkbox-input" name="current-role" id="unemployed" required>
       </label>
     </div>
     <div class="checkbox-div">
       <label class="checkbox-label-student">Student
-        <input type="checkbox" class="checkbox-input" name="student" id="student" required>
+        <input type="checkbox" class="checkbox-input" name="current-role" id="student" required>
       </label>
     </div>
 
