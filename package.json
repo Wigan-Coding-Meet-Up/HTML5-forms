@@ -1,0 +1,25 @@
+{
+  "name": "html5-forms",
+  "version": "1.0.0",
+  "description": "Forms curriculum for Wigan Coding Meet Up",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wigan-Coding-Meet-Up/HTML5-forms.git"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "Ryan Brockley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wigan-Coding-Meet-Up/HTML5-forms/issues"
+  },
+  "homepage": "https://github.com/Wigan-Coding-Meet-Up/HTML5-forms#readme",
+  "dependencies": {
+    "jest": "^24.7.1"
+  }
+}
